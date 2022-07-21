@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvoice", "CabInvoice.csproj", "{68759497-058E-4807-97C3-1CC6EC9743C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvoiceTest", "..\CabInvoiceTest\CabInvoiceTest.csproj", "{86086499-6A95-4DA7-B001-6F921E3355B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uc2", "..\uc2\uc2.csproj", "{1835FA26-EC74-409B-8023-0952D0929C43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvoiceTest2", "..\CabInvoiceTest2\CabInvoiceTest2.csproj", "{0A2A5278-DF14-4289-A57D-30370042C469}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "uc3", "..\uc3\uc3.csproj", "{9F522040-341C-4F55-8520-25533E8B81C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CabInvoiceTest3", "..\CabInvoiceTest3\CabInvoiceTest3.csproj", "{C6044A7B-CAF7-4979-9095-60DD3E9E1B68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68759497-058E-4807-97C3-1CC6EC9743C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68759497-058E-4807-97C3-1CC6EC9743C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68759497-058E-4807-97C3-1CC6EC9743C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68759497-058E-4807-97C3-1CC6EC9743C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{86086499-6A95-4DA7-B001-6F921E3355B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86086499-6A95-4DA7-B001-6F921E3355B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86086499-6A95-4DA7-B001-6F921E3355B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{86086499-6A95-4DA7-B001-6F921E3355B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1835FA26-EC74-409B-8023-0952D0929C43}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1835FA26-EC74-409B-8023-0952D0929C43}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1835FA26-EC74-409B-8023-0952D0929C43}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1835FA26-EC74-409B-8023-0952D0929C43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A2A5278-DF14-4289-A57D-30370042C469}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A2A5278-DF14-4289-A57D-30370042C469}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A2A5278-DF14-4289-A57D-30370042C469}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A2A5278-DF14-4289-A57D-30370042C469}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F522040-341C-4F55-8520-25533E8B81C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F522040-341C-4F55-8520-25533E8B81C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F522040-341C-4F55-8520-25533E8B81C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F522040-341C-4F55-8520-25533E8B81C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6044A7B-CAF7-4979-9095-60DD3E9E1B68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6044A7B-CAF7-4979-9095-60DD3E9E1B68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6044A7B-CAF7-4979-9095-60DD3E9E1B68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6044A7B-CAF7-4979-9095-60DD3E9E1B68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE8B9715-701C-4235-A636-3F405AC6E73B}
+	EndGlobalSection
+EndGlobal
