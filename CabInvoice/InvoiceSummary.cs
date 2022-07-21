@@ -6,18 +6,11 @@ using System.Threading.Tasks;
 
 namespace CabInvoice
 {
-    /// <summary>
-    /// Generate Invoice summery
-    /// Invoice summary generates number of rides And  total fare
-    /// And Also generates average fare for summary
-    /// Create constructor and pass 3 variables of private type
-    /// </summary>
     public class InvoiceSummary
     {
         private int numberOfRides;
         private double totalFare;
         private double averageFare;
-
 
         // Initializes a new instance of the class.
         // initializes number of rides, total fare and generates average fare for rides.

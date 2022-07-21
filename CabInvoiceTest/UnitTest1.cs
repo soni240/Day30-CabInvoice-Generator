@@ -1,7 +1,7 @@
 using CabInvoice;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace CabInvoiceTest
+namespace CabInvoiceTest2
 {
     [TestClass]
     public class UnitTest1
@@ -22,6 +22,7 @@ namespace CabInvoiceTest
                 InvoiceGenerator invoiceGenerator = new InvoiceGenerator();
                 double distance = 2.0;
                 int time = 5;
+
                 //For calculating fare
                 double fare = invoiceGenerator.CalculateFare(distance, time);
                 double expected = 25;
@@ -60,13 +61,11 @@ namespace CabInvoiceTest
             //Creating instance of invoice generator 
             InvoiceGenerator invoiceGenerator = new InvoiceGenerator(RideType.NORMAL);
             Ride[] rides = { new Ride(2.0, 5), new Ride(0.1, 1) };
-            RideRepository rideRepository = new RideRepository();
-            string userId = "Dhiraj";
-            rideRepository.AddRide(userId, rides);
-            Ride[] rideData = rideRepository.GetRides(userId);
+
             //Generating Summary for rides
             InvoiceSummary summary = invoiceGenerator.CalculateFare(rides);
             InvoiceSummary expectedSummary = new InvoiceSummary(2, 30.0, 15);
+
             //Asserting values with average in equals to formula in invoice summary
             Assert.AreEqual(expectedSummary, summary);
         }

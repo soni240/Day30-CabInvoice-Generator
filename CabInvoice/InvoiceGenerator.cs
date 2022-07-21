@@ -95,6 +95,7 @@ namespace CabInvoice
         //returns invoice summary object 
         return new InvoiceSummary(rides.Length, totalFare);
     }
+
     double CalculateFare(double distance, int time)
     {
         throw new NotImplementedException();
@@ -106,7 +107,6 @@ namespace CabInvoice
     {
         try
         {
-            object rideRepository = null;
             rideRepository.AddRide(userId, rides);
         }
         catch (CabInvoiceException)
@@ -118,6 +118,7 @@ namespace CabInvoice
         }
     }
     //Gets the invoice summary by passing user id into ride repository and then passing rides array to calculate fares.
+
     public InvoiceSummary GetInvoiceSummary(string userId)
     {
         try
